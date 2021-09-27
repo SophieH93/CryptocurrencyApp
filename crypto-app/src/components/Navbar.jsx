@@ -1,10 +1,10 @@
 import React from 'react';
 import {Button, Menu, Typography, Avatar} from 'antd';
-import {Link} from 'react-dom';
-import { HomeOutlined, MoneyCollectOutlines, FundOutlined, MenuOutlined} from '@ant-design/icons'
+import {Link} from 'react-router-dom';
+import { HomeOutlined, MoneyCollectOutlined, FundOutlined, MenuOutlined} from '@ant-design/icons';
 import icon from "../images/crypto.png";
 
-export const Navbar = () => {
+ const Navbar = () => {
     return (
         <div className="nav-container">
             <div className="logo-container">
@@ -12,9 +12,14 @@ export const Navbar = () => {
                 <Typography.Title level={2} className="logo">
                     <Link to="/">Cryptoverse</Link>
                 </Typography.Title>
-                {/* <Button className="menue-control-container"></Button> */}
+                {/* <Button className=menu-control-container"></Button> */}
             </div>
             
         </div>
     )
 }
+
+export default Navbar;
+
+
+
