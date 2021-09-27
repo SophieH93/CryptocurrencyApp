@@ -1,9 +1,13 @@
 import "./App.css";
+import { Switch, Routh, Link } from "react-router-dom";
+import { layout, Typography, Space } from "antd";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Crypto</h1>
+    <div className="app">
+      <div className="navbar"></div>
+      <div className="main"></div>
+      <div className="footer"></div>
     </div>
   );
 }
