@@ -26,8 +26,7 @@ import icon from "../images/crypto.png";
                 <Menu.Item icon={<BulbOutlined />}>
                     <Link to="/news">News</Link>
                 </Menu.Item>
-            </Menu>
-            
+            </Menu>            
         </div>
     )
 }
