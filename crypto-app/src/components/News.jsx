@@ -15,7 +15,6 @@ const demoImage = 'https://www.bing.com/th?id=OVFT.mpzuVZnv8dwIMRfQGPbOPC&pid=Ne
     const { data } = useGetCryptosQuery(100);
 
     if(!cryptoNews?.value) return 'Loading...'
-    console.log(cryptoNews)
     return (
         <Row gutter={[24, 24]}>
             {!simplified && (
